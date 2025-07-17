@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Quick CSS included for layout – move to style.css if needed */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      text-align: left;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+
+    .main-content {
+      padding: 30px 40px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .course {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width:100%;
+      box-sizing:border-box;
+    }
+
+    .course h3 {
+      margin-top: 0;
+    }
+
+    .enroll-btn {
+      background-color: #004080;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .enroll-btn:hover {
+      background-color: #003060;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      padding: 10px 20px;
+      text-align: center;
+      color: #444;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Online Learning Platform</h1>
+    <nav>
+      <a href="index.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h2>Available Courses</h2>
+
+    <div class="course">
+      <h3>Course 1: Introduction to Programming</h3>
+      <p>Learn the basics of programming with hands-on projects.</p>
+      <button class="enroll-btn" onclick="window.location.href='enroll.html'">Enroll Now</button>
+
+    </div>
+    <div class="course">
+  <h3>Course 2: Web Development Fundamentals</h3>
+  <p>Build responsive websites using HTML, CSS, and JavaScript.</p>
+  <button class="enroll-btn" onclick="window.location.href='enroll.html'">Enroll Now</button>
+</div>
+
+
+    <!-- Add more courses here if needed -->
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Copyright © 2023 Online Learning Platform
+  </footer>
+
+</body>
+</html>

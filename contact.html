@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #004080;
+      color: white;
+      padding: 15px 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      margin-top: 15px;
+      background: #004080;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #e0e0e0;
+      padding: 10px 20px;
+      text-align: center;
+      color: #444;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <form class="contact-form">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+
+    <button type="submit" onclick="alert('Thanks for contacting us!')">Submit</button>
+  </form>
+
+  <footer>
+    Copyright © 2023 Online Learning Platform
+  </footer>
+
+</body>
+</html>
