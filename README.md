@@ -43,4 +43,4 @@ contact.html – Contact form
 
 OUTPUT
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/da6cabd7-6e6b-41aa-a192-45c202a09841" />
+
